@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  color: #fff;
+  background-color: rgba(238, 77, 45, 0.9);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background-color: rgba(238, 77, 45);
+}
+
+.btn {
+  margin-bottom: 16px;
+}
+
+.btn:last-child {
+  margin-bottom: 0px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+}
